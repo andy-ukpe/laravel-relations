@@ -13,5 +13,5 @@ class Album extends Model
   ];
   public function songs(){
     return $this->hasMany('App\Song');
-  };
+  }
 }
