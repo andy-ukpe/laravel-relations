@@ -30,7 +30,7 @@ class SongsTableSeeder extends Seeder
             'emo',
             'indie',
           ]);
-          $new_song->album_id = $j + 1;
+          $new_song->album_id = $i + 1;
           $new_song->save();
         }
       }
